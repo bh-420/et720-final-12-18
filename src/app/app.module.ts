@@ -35,6 +35,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { ShippingComponent } from "./shipping/shipping.component";
 import { GraphicDesignComponent } from "./graphic-design/graphic-design.component";
 import { DigitalArtComponent } from "./digital-art/digital-art.component";
+import { IllustrationsComponent } from "./illustrations/illustrations.component";
 
 @NgModule({
   imports: [
@@ -48,7 +49,8 @@ import { DigitalArtComponent } from "./digital-art/digital-art.component";
       { path: "cart", component: CartComponent },
       { path: "shipping", component: ShippingComponent },
       { path: "graphic", component: GraphicDesignComponent },
-      { path: "digital", component: DigitalArtComponent }
+      { path: "digital", component: DigitalArtComponent },
+      { path: "illustrations", component: IllustrationsComponent }
     ])
   ],
   declarations: [
@@ -60,7 +62,8 @@ import { DigitalArtComponent } from "./digital-art/digital-art.component";
     CartComponent,
     ShippingComponent,
     GraphicDesignComponent,
-    DigitalArtComponent
+    DigitalArtComponent,
+    IllustrationsComponent
   ],
   bootstrap: [AppComponent],
   providers: [CartService]

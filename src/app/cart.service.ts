@@ -31,5 +31,9 @@ export class CartService {
   getDigital() {
     return this.http.get("/assets/digital.json");
   }
+
+  getIllustrations() {
+    return this.http.get("/assets/illustrations.json");
+  }
   constructor(private http: HttpClient) {}
 }
