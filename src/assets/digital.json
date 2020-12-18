@@ -1,55 +1,43 @@
 [
     {
-    	"name": "Visionaire Poster",
-    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Visionaire.jpg"
+    	"name": "Stargazer",
+    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/stargazer.png"
   	},
     {
-    	"name": "Wolf Kings Poster",
-    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Wolf-Kings.jpg"
+    	"name": "Stargazer",
+    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Stargazer-feather-hoop.png"
   	},
     {
-      "name": "PSA Poster",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/psa-poster.jpg"
+      "name": "Stargazer",
+      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/stargazer-one.png"
     },
     {
-      "name": "Intergalactic Doorway",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/red-door.jpg"
+      "name": "Stargazer",
+      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/stargazer-original.png"
     },
     {
-      "name": "Species: Unknown",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/goat.jpg"
+      "name": "LOONA Galaxy",
+      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/loona-black.png"
     },
     {
-      "name": "Seudo Productions",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/seudo-productions-long.jpg"
+      "name": "LOONA Galaxy",
+      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/loona-white.png"
     },
     {
-      "name": "EXO Studios",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/exo-studios.jpg"
+      "name": "Blind Owl",
+      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/blind-owl.jpg"
     },
   
     {
-    	"name": "Sunrise Airlines",
-    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/sunrise-airlines.jpg"
+    	"name": "Moon",
+    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/shinee-moon.jpg"
   	},
     {
-    	"name": "Medieval Poker Club",
-    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/medieval-poker-club.jpg"
+    	"name": "Gunfire",
+    	"artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/political.jpg"
   	},
     {
-      "name": "Tweet Inc.",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/tweet-inc.jpg"
-    },
-    {
-      "name": "Sunset",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Symmetrical Design.jpg"
-    },
-    {
-      "name": "",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Business Cards.jpg"
-    },
-    {
-      "name": "",
-      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/Inspirational Quote Design.jpg"
+      "name": "Rebecca",
+      "artwork": "https://d3u4fnct1vpepk.cloudfront.net/website/war2/img/name-logo.jpg"
     }
 ]
