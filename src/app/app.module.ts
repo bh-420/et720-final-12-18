@@ -2,6 +2,27 @@ import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { RouterModule } from "@angular/router";
 import { ReactiveFormsModule } from "@angular/forms";
+import { LightboxModule } from "ngx-lightbox";
+
+import {
+  AccordionModule,
+  AlertModule,
+  ButtonsModule,
+  CarouselModule,
+  CollapseModule,
+  BsDatepickerModule,
+  BsDropdownModule,
+  ModalModule,
+  OffcanvasModule,
+  PaginationModule,
+  ProgressbarModule,
+  RatingModule,
+  SortableModule,
+  TabsModule,
+  TimepickerModule,
+  TooltipModule,
+  TypeaheadModule
+} from "ngx-foundation";
 
 import { AppComponent } from "./app.component";
 import { TopBarComponent } from "./top-bar/top-bar.component";
@@ -12,17 +33,22 @@ import { CartService } from "./cart.service";
 import { CartComponent } from "./cart/cart.component";
 import { HttpClientModule } from "@angular/common/http";
 import { ShippingComponent } from "./shipping/shipping.component";
+import { GraphicDesignComponent } from "./graphic-design/graphic-design.component";
+import { DigitalArtComponent } from "./digital-art/digital-art.component";
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
+    LightboxModule,
     RouterModule.forRoot([
       { path: "", component: ProductListComponent },
       { path: "products/:productId", component: ProductDetailsComponent },
       { path: "cart", component: CartComponent },
-      { path: "shipping", component: ShippingComponent }
+      { path: "shipping", component: ShippingComponent },
+      { path: "graphic", component: GraphicDesignComponent },
+      { path: "digital", component: DigitalArtComponent }
     ])
   ],
   declarations: [
@@ -32,7 +58,9 @@ import { ShippingComponent } from "./shipping/shipping.component";
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
-    ShippingComponent
+    ShippingComponent,
+    GraphicDesignComponent,
+    DigitalArtComponent
   ],
   bootstrap: [AppComponent],
   providers: [CartService]
